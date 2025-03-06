@@ -37,6 +37,64 @@ Today in class, we covered important topics related to the Cybersecurity program
 ## Reflection
 Today was an insightful day, as we not only gained a deeper understanding of the requirements for the Cybersecurity program but also had the chance to witness the incredible impact of community-driven organizations like the City of Refuge. It was inspiring to see how organizations can make a meaningful difference in people's lives through housing, education, and workforce development. Additionally, learning about the history of the Windows operating system provided valuable context for understanding modern computing.
 
+# Day in Review - 2025-03-05
+
+## Overview
+Today was a day of reflection, learning, and inspiration. We started by revisiting the lessons from the previous day, discussed the importance of habits and cybersecurity tools, and heard from a guest speaker who shared powerful insights into leadership and performance.
+
+---
+
+## Key Topics Covered
+
+### 1. **Reflection on Previous Day**
+   - We reflected on the lessons from the previous day and shared our biggest takeaways.
+   - My personal takeaway was the importance of having a **methodical focus** on my coursework during this program. I aim to approach my studies with discipline and intentionality.
+
+### 2. **Sleep Habits and Learning**
+   - Mr. Bricker emphasized how **sleep habits** directly impact our ability to learn and retain information.
+   - I am committed to getting a full night's rest during the program by eliminating distractions and prioritizing my health.
+
+### 3. **Atomic Habits by James Clear**
+   - We discussed the book *Atomic Habits* by James Clear, focusing on how small, consistent changes can lead to significant improvements over time.
+   - Key takeaway: **Acknowledging weaknesses** is the first step toward growth. I realize I don't currently have all the skills or talent needed to achieve my goals, but I can develop them through consistent effort and self-awareness.
+
+### 4. **Cybersecurity Tools**
+   - We reviewed the importance of several cybersecurity tools and practices:
+     - **VPNs (Virtual Private Networks)**: Essential for secure internet browsing.
+     - **Multifactor Authentication (MFA)**: Adds an extra layer of security to accounts.
+     - **Password Managers**: Help create and store strong, unique passwords.
+     - **Next-Gen Antivirus**: Provides advanced protection against modern threats.
+
+### 5. **Guest Speaker: Bruce Deel**
+   - Bruce Deel, the founder of **City of Refuge**, shared inspiring stories about the origins of the organization and its mission to combat challenges like **human trafficking**.
+   - He also shared his **personal keys to performance**:
+     1. **Prompt**: Be on time and reliable.
+     2. **Prepared**: Come ready to contribute.
+     3. **Passionate**: Bring energy and enthusiasm.
+     4. **Present**: Be fully engaged in the moment.
+   - These four principles are his tenants for performing at a high level.
+
+### 6. **The Fourth Industrial Revolution**
+   - Mr. Bricker highlighted the transformative impact of the **Fourth Industrial Revolution**.
+   - Key points:
+     - Nearly **133 million new jobs** will be created globally, but this will also result in a **reskilling emergency**.
+     - We must treat every experience as an **opportunity to learn**.
+     - **Learning** is the most critical skill in the digital age, yet few adults have been trained in the core skills and mindsets of effective learners.
+
+---
+
+## Reflection
+Today was a powerful reminder of the importance of **habits**, **mindset**, and **continuous learning**. From the discussion on sleep and habits to the inspiring stories shared by Bruce Deel, I am motivated to approach this program with focus, humility, and a commitment to growth. The insights into cybersecurity tools and the Fourth Industrial Revolution reinforced the urgency of acquiring new skills and adapting to a rapidly changing world. I am excited to embrace these challenges and opportunities.
+
+---
+
+## Next Steps
+- Implement a consistent sleep schedule to optimize learning and productivity.
+- Apply the principles of *Atomic Habits* to build positive routines and eliminate distractions.
+- Explore and set up the cybersecurity tools discussed (VPN, MFA, password manager, next-gen antivirus).
+- Reflect on Bruce Deel's keys to performance and incorporate them into my daily approach.
+- Treat every experience as a learning opportunity and prioritize skill development.
+
 ---
 
 ## Next Steps
