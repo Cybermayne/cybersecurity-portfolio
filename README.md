@@ -1,7 +1,7 @@
 # About Me
 
 **Name:** Kenneth Bishop  
-**Hometown:** South Fulton, GA 
+**Hometown:** College Park, GA 
 
 **Prior IT Experience:**  
   I have a background in telecommunications, where I worked in sales, troubleshooting, and eventually advanced to a managerial role. This experience allowed me to develop strong problem-solving skills, a solid understanding of network infrastructure, and the ability to lead and support teams effectively. Additionally, I have hands-on experience with hardware, having built my computer from scratch, which deepened my knowledge of system components and assembly.
