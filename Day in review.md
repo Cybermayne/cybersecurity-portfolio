@@ -146,6 +146,56 @@ Today's session focused on the concept of becoming **indistractable**—learning
 Today's session was a powerful reminder of the importance of **intentionality** in how we spend our time and energy. By understanding the root causes of distraction and prioritizing traction, I feel better equipped to stay focused on my goals. The mindfulness exercise with the pencil was a humbling experience—it showed me how much detail and effort goes into even the simplest objects, reinforcing the value of paying attention to the present moment. I am committed to using proactive scheduling and mindfulness practices to become **indistractable** and align my actions with my values.
 
 ---
+# Day in Review - 2025-03-06
+
+## Overview
+Today was an engaging and insightful day focused on **cooperation**, **ownership**, and **accountability**. We participated in a team exercise, discussed strategies for maintaining focus, and received important updates about the program. It was also our last day with Mr. Bricker, who has been an incredible mentor throughout this journey.
+
+---
+
+## Key Topics Covered
+
+### 1. **Team Exercise: Space Team**
+   - We played **Space Team**, a shouting-based game that emphasizes **communication** and **teamwork**.
+   - The game required us to quickly recognize the **strengths and weaknesses** of our teammates and adjust our strategy accordingly.
+   - Initially, we struggled to get past **level 2**, but after refining our approach, we successfully reached **level 6**.
+
+### 2. **Ownership, Responsibility, and Accountability**
+   - We discussed the differences between:
+     - **Ownership**: Given responsibility.
+     - **Responsibility**: Accepted by the individual.
+     - **Accountability**: Held by the individual.
+   - These concepts are crucial for personal and team success.
+
+### 3. **H.A.L.T. Acronym**
+   - Mr. Bricker introduced the acronym **H.A.L.T.** to help us identify emotions that cause us to lose focus:
+     - **H**ungry
+     - **A**ngry
+     - **L**onely
+     - **T**ired
+   - Recognizing these emotions allows us to address them and maintain focus on our tasks.
+
+### 4. **Attendance Policy**
+   - Primous reviewed the **attendance policy**:
+     - We must be logged in by **8:01 AM** to remain in good standing.
+   - Punctuality and consistency are key to success in the program.
+
+### 5. **Npursuit Learning Hub Access**
+   - We were granted access to the **Npursuit Learning Hub**, which will be a valuable resource for our coursework.
+   - This weekend, I plan to review the **Linux module** presentation to get a head start before it begins on Monday.
+
+---
+
+## Reflection
+Today was a fantastic day of learning and collaboration. The **Space Team** exercise reinforced the importance of **communication** and **adaptability** in a team setting. The discussion on **ownership**, **responsibility**, and **accountability** reminded me of the importance of taking charge of my actions and commitments. The **H.A.L.T.** acronym is a simple yet powerful tool for maintaining focus and emotional balance. Finally, gaining access to the **Npursuit Learning Hub** excites me, as it provides an opportunity to stay ahead in the program. I am grateful for Mr. Bricker's guidance and look forward to applying these lessons moving forward.
+
+---
+
+## Next Steps
+- Review the **Linux module** presentation in the Npursuit Learning Hub to prepare for Monday.
+- Reflect on the **H.A.L.T.** acronym and use it to maintain focus and emotional well-being.
+- Ensure I am logged in by **8:01 AM** daily to remain in good standing with the attendance policy.
+- Apply the principles of **ownership**, **responsibility**, and **accountability** to my coursework and team interactions.
 
 ## Next Steps
 - Reflect on my values and **turn them into time** by scheduling intentional blocks in my calendar.
