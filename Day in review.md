@@ -146,7 +146,7 @@ Today's session focused on the concept of becoming **indistractable**—learning
 Today's session was a powerful reminder of the importance of **intentionality** in how we spend our time and energy. By understanding the root causes of distraction and prioritizing traction, I feel better equipped to stay focused on my goals. The mindfulness exercise with the pencil was a humbling experience—it showed me how much detail and effort goes into even the simplest objects, reinforcing the value of paying attention to the present moment. I am committed to using proactive scheduling and mindfulness practices to become **indistractable** and align my actions with my values.
 
 ---
-# Day in Review - 2025-03-06
+# Day in Review - 2025-03-07
 
 ## Overview
 Today was an engaging and insightful day focused on **cooperation**, **ownership**, and **accountability**. We participated in a team exercise, discussed strategies for maintaining focus, and received important updates about the program. It was also our last day with Mr. Bricker, who has been an incredible mentor throughout this journey.
