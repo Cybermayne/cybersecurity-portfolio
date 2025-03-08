@@ -101,3 +101,54 @@ Today was a powerful reminder of the importance of **habits**, **mindset**, and 
 - Review the terms and conditions for the Cybersecurity program to ensure full compliance.
 - Set up and familiarize myself with the new computer for coursework.
 - Reflect on the importance of community support and ethical responsibility in both personal and professional contexts.
+
+# Day in Review - 2025-03-06
+
+## Overview
+Today's session focused on the concept of becoming **indistractable**—learning how to control our attention and prioritize what truly matters. We explored the root causes of distraction, practiced mindfulness, and discussed strategies for managing time and energy effectively.
+
+---
+
+## Key Topics Covered
+
+### 1. **Understanding Distraction**
+   - The word **distraction** was deconstructed into its root: **dis-traction**, meaning a loss of traction toward your goals.
+   - The opposite of distraction is not focus but **traction**—actions that align with your values and long-term objectives.
+   - We often prioritize the **urgent** at the expense of what is truly **important**.
+
+### 2. **Mindfulness Exercise: Finding Amazement**
+   - We did an exercise to find something to be amazed by for **30 seconds**.
+   - I chose a **pencil** and noticed:
+     - The **embossed and debossed text** on its surface.
+     - The **brass ferrule** and **soft eraser** at the top.
+     - The intricate process required to apply the **gold foil**.
+   - This exercise helped me appreciate the **nuance and thought** that goes into even the simplest objects.
+
+### 3. **Root Cause of Distraction**
+   - Most external stimuli are not the root cause of distraction.
+   - Instead, distraction often stems from an **internal need to avoid discomfort or pain**.
+   - Recognizing this allows us to address the underlying issues rather than blaming external factors.
+
+### 4. **Proactive Scheduling**
+   - **Proper scheduling** is key to managing distractions.
+   - Use a calendar to **turn your values into time**—allocate time for what truly matters.
+   - Managing **energy** is just as important as managing time.
+
+### 5. **Strategies for Becoming Indistractable**
+   - **Prioritize traction**: Focus on actions that align with your goals.
+   - **Schedule intentionally**: Block time for important tasks and stick to your plan.
+   - **Manage discomfort**: Identify and address the internal triggers that lead to distraction.
+   - **Practice mindfulness**: Regularly pause to appreciate the present moment and refocus your attention.
+
+---
+
+## Reflection
+Today's session was a powerful reminder of the importance of **intentionality** in how we spend our time and energy. By understanding the root causes of distraction and prioritizing traction, I feel better equipped to stay focused on my goals. The mindfulness exercise with the pencil was a humbling experience—it showed me how much detail and effort goes into even the simplest objects, reinforcing the value of paying attention to the present moment. I am committed to using proactive scheduling and mindfulness practices to become **indistractable** and align my actions with my values.
+
+---
+
+## Next Steps
+- Reflect on my values and **turn them into time** by scheduling intentional blocks in my calendar.
+- Practice mindfulness exercises daily to improve my ability to focus and appreciate the present.
+- Identify and address internal triggers that lead to distraction.
+- Apply the principles of **traction** to prioritize what is important over what is urgent.
