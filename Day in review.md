@@ -202,3 +202,55 @@ Today was a fantastic day of learning and collaboration. The **Space Team** exer
 - Practice mindfulness exercises daily to improve my ability to focus and appreciate the present.
 - Identify and address internal triggers that lead to distraction.
 - Apply the principles of **traction** to prioritize what is important over what is urgent.
+
+# Day in Review - 2025-03-10
+
+## Overview
+Today marked the first day of actual coursework in the program. We delved into the **components of a computer**, explored the differences between **BIOS and UEFI**, and discussed the evolution of hardware technology. The session was both enlightening and humbling, as it revealed how much there is to learn about even the most basic aspects of computing.
+
+---
+
+## Key Topics Covered
+
+### 1. **Computer Components**
+   - We reviewed the key components of a computer and how they work together:
+     - **Motherboard**: The central hub that connects all hardware components.
+     - **RAM (Random Access Memory)**: Temporary storage for active processes and data.
+     - **Storage Devices**: Including HDDs (Hard Disk Drives), SSDs (Solid State Drives), and NVMe drives.
+   - I realized that while I thought I knew a lot about computer basics, there is still much more to learn.
+
+### 2. **BIOS vs. UEFI**
+   - We covered the differences between **BIOS (Basic Input/Output System)** and **UEFI (Unified Extensible Firmware Interface)**:
+     - BIOS is older and has limitations, such as slower boot times and support for only 16-bit processes.
+     - UEFI is modern, faster, and supports 32-bit and 64-bit processes, as well as larger storage drives.
+   - This was my first time understanding the distinction between the two.
+
+### 3. **32-bit vs. 64-bit**
+   - We discussed the differences between **32-bit** and **64-bit** systems:
+     - **32-bit systems** can only address up to 4 GB of RAM.
+     - **64-bit systems** can handle significantly more RAM and are more efficient for modern applications.
+   - This was a new concept for me, and it helped clarify why 64-bit systems are the standard today.
+
+### 4. **Obsolete Hardware and Replacements**
+   - We touched on obsolete hardware and their modern replacements:
+     - For example, **BIOS** has largely been replaced by **UEFI**.
+   - Understanding the evolution of hardware technology provided context for how current systems are designed.
+
+### 5. **Theoretical Hardware Issues**
+   - We explored theoretical scenarios involving hardware issues, such as:
+     - Diagnosing a failing hard drive.
+     - Troubleshooting RAM-related problems.
+   - These exercises highlighted the importance of understanding how components interact.
+
+---
+
+## Reflection
+Today's session was a deep dive into the **fundamentals of computer hardware**, and it was both fascinating and humbling. I realized that while I had some prior knowledge, there is still so much to learn about how computers work at a fundamental level. The discussion on **BIOS vs. UEFI** and **32-bit vs. 64-bit** systems was particularly enlightening, as it clarified concepts I had never fully understood. I also appreciated the historical context provided by discussing obsolete hardware and its modern replacements. My main takeaway was how **deep down the rabbit hole** you can go for every single component in a computer, and how understanding these details can shape the way we approach technology today.
+
+---
+
+## Next Steps
+- Review the material on **BIOS vs. UEFI** and **32-bit vs. 64-bit** systems to solidify my understanding.
+- Research additional resources on computer hardware to deepen my knowledge.
+- Reflect on how the evolution of hardware technology impacts modern computing.
+- Prepare for upcoming coursework by staying engaged and proactive in my learning.
