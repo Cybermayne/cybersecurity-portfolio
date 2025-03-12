@@ -254,3 +254,52 @@ Today's session was a deep dive into the **fundamentals of computer hardware**, 
 - Research additional resources on computer hardware to deepen my knowledge.
 - Reflect on how the evolution of hardware technology impacts modern computing.
 - Prepare for upcoming coursework by staying engaged and proactive in my learning.
+
+# Day in Review - 2025-03-11
+
+## Overview
+Today’s session focused on **virtualization**, **binary concepts**, and hands-on practice with setting up virtual machines. We explored the role of hypervisors, learned about bits and bytes, and even practiced calculating numbers in binary. It was a highly technical and engaging day that deepened my understanding of foundational computing concepts.
+
+---
+
+## Key Topics Covered
+
+### 1. **Virtualization and Hypervisors**
+   - **Virtualization** allows multiple operating systems to run on a single physical machine.
+   - We discussed **hypervisors**, which are software layers that enable virtualization:
+     - **Type 1 Hypervisors**: Run directly on the hardware (e.g., VMware ESXi, Microsoft Hyper-V).
+     - **Type 2 Hypervisors**: Run on top of an existing operating system (e.g., VMware Workstation, Oracle VirtualBox).
+   - This distinction helped clarify how virtualization is implemented in different environments.
+
+### 2. **Setting Up a Virtual Machine**
+   - We practiced setting up a **virtual machine (VM)** using **VMware**.
+   - Steps included:
+     - Allocating resources (CPU, RAM, storage).
+     - Installing an operating system on the VM.
+   - This hands-on exercise was invaluable for understanding how virtualization works in practice.
+
+### 3. **Binary Basics**
+   - We covered the fundamentals of **binary**, the language of computers:
+     - **Bits**: The smallest unit of data (0 or 1).
+     - **Bytes**: A group of 8 bits, representing a single character or value.
+   - Understanding binary is essential for working with low-level computing concepts.
+
+### 4. **Binary Calculations**
+   - We practiced converting **decimal numbers to binary** and vice versa.
+   - For example:
+     - The decimal number **10** is **1010** in binary.
+     - The binary number **1101** is **13** in decimal.
+   - This exercise helped solidify my understanding of how binary represents data.
+
+---
+
+## Reflection
+Today’s session was a deep dive into **virtualization** and **binary**, two critical areas in computing. Learning about hypervisors and setting up a virtual machine gave me a practical understanding of how virtualization works and its importance in modern IT environments. The discussion on binary was equally enlightening, as it provided a foundation for understanding how computers process and store data. Practicing binary calculations was challenging but rewarding, and it highlighted the importance of precision in computing. Overall, today reinforced how interconnected and layered computing concepts are, and I’m excited to continue building on this knowledge.
+
+---
+
+## Next Steps
+- Experiment further with **VMware** to set up additional virtual machines and explore their configurations.
+- Practice more **binary calculations** to improve my fluency in converting between decimal and binary.
+- Research real-world applications of **Type 1 and Type 2 hypervisors** to understand their use cases better.
+- Review today’s material to ensure I fully grasp the concepts of virtualization and binary.
