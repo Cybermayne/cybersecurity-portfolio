@@ -303,3 +303,52 @@ Today’s session was a deep dive into **virtualization** and **binary**, two cr
 - Practice more **binary calculations** to improve my fluency in converting between decimal and binary.
 - Research real-world applications of **Type 1 and Type 2 hypervisors** to understand their use cases better.
 - Review today’s material to ensure I fully grasp the concepts of virtualization and binary.
+
+# Day in Review - 2025-03-12
+
+## Overview
+Today was a **professional development day**, featuring two guest speakers and a focus on personal values, career preparation, and professional attire. We engaged in a thought-provoking exercise to identify our core values and received valuable advice on breaking into the cybersecurity field. The day concluded with a refresher on industry standards for professional attire.
+
+---
+
+## Key Topics Covered
+
+### 1. **Guest Speaker: Mr. Ron Cofield**
+   - We participated in an exercise to identify **four core values** that reflect what we want our lives to embody at this moment.
+   - My chosen values were:
+     1. **Faith**: Staying grounded in my beliefs and principles.
+     2. **Money**: Achieving financial stability and independence.
+     3. **Wisdom**: Continuously learning and making informed decisions.
+     4. **Efficiency**: Maximizing productivity and minimizing waste.
+   - This activity encouraged introspection and helped clarify my personal and professional priorities.
+
+### 2. **Guest Speaker: Paul Farley**
+   - Paul Farley, a seasoned cybersecurity professional, shared insights on **key areas to focus on** for landing our first job in cybersecurity:
+     - **Networking**: Understanding how networks operate and securing them.
+     - **Linux Servers**: Gaining proficiency in Linux, a critical skill in cybersecurity.
+     - **Web Servers**: Learning how web servers work and how to protect them.
+     - **DNS (Domain Name System)**: Understanding DNS and its role in cybersecurity.
+     - **Cloud**: Familiarizing ourselves with cloud platforms and their security implications.
+     - **Scripting Languages**: Learning languages like Python or Bash to automate tasks and analyze data.
+   - His advice provided a clear roadmap for building the skills needed to succeed in the field.
+
+### 3. **Professional Attire**
+   - We reviewed **best practices for attire** expected during the program and in our future careers.
+   - Key points included:
+     - Dressing **business casual** as a standard for most professional settings.
+     - Ensuring clothing is clean, well-fitted, and appropriate for the workplace.
+     - Paying attention to details like grooming and accessories.
+   - While I have dressed business casual in most of my previous jobs, this was a helpful refresher on industry standards.
+
+---
+
+## Reflection
+Today’s professional development day was both inspiring and practical. The exercise with Mr. Ron Cofield helped me reflect on my **core values** and how they align with my personal and professional goals. Paul Farley’s insights into the cybersecurity field were invaluable, as they provided a clear focus for the skills I need to develop. Finally, the discussion on **professional attire** reinforced the importance of presenting oneself appropriately in the workplace. Overall, today was a great reminder of the **holistic approach** needed to succeed in both personal growth and professional development.
+
+---
+
+## Next Steps
+- Reflect on my **core values** and how they can guide my decisions and actions moving forward.
+- Begin focusing on the **key areas** highlighted by Paul Farley, starting with **Linux** and **scripting languages**.
+- Review my wardrobe to ensure I have appropriate **business casual attire** for the program and future job interviews.
+- Stay proactive in applying the lessons from today to both my personal and professional life.
