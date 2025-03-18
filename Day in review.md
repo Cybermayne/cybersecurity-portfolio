@@ -352,3 +352,65 @@ Today’s professional development day was both inspiring and practical. The exe
 - Begin focusing on the **key areas** highlighted by Paul Farley, starting with **Linux** and **scripting languages**.
 - Review my wardrobe to ensure I have appropriate **business casual attire** for the program and future job interviews.
 - Stay proactive in applying the lessons from today to both my personal and professional life.
+
+# Day in Review - 2025-03-13
+
+## Overview
+Today’s session focused on **Ubuntu** and its **Graphical User Interface (GUI)**, as well as the differences between **GUI** and **Command Line Interface (CLI)**. We explored the Ubuntu desktop, performed basic tasks like changing the time zone and background, and delved into shell commands, kernel concepts, and syntax. The class was challenging but incredibly rewarding, as I learned a great deal about Linux systems and their inner workings.
+
+---
+
+## Key Topics Covered
+
+### 1. **Ubuntu GUI**
+   - We familiarized ourselves with the **Ubuntu desktop environment**.
+   - Performed basic tasks such as:
+     - Changing the **time zone**.
+     - Customizing the **desktop background**.
+   - This hands-on experience helped me get comfortable navigating a Linux-based GUI.
+
+### 2. **GUI vs. CLI**
+   - We discussed the differences between:
+     - **GUI (Graphical User Interface)**: User-friendly, visual interface for interacting with the system.
+     - **CLI (Command Line Interface)**: Text-based interface that provides more control and flexibility.
+   - Understanding these differences is crucial for working efficiently in different environments.
+
+### 3. **Kernel and Shell**
+   - **Kernel**: The core of the operating system that manages hardware resources and system processes.
+   - **Shell**: A program that interprets user commands and communicates with the kernel.
+   - We explored various **shell types**, including:
+     - **Bash (Bourne Again Shell)**: The most common shell in Linux.
+     - **Korn Shell (ksh)**: Known for its scripting capabilities.
+     - **Z Shell (zsh)**: Offers advanced features and customization.
+     - **Fish (Friendly Interactive Shell)**: User-friendly with syntax highlighting and autocompletion.
+
+### 4. **Shell Commands and Syntax**
+   - We learned about **syntax commands** and **subcommands**:
+     - Commands are structured with a specific syntax, often including options and arguments.
+     - Subcommands provide additional functionality within a command.
+   - Examples:
+     - `ls -l`: Lists files in long format.
+     - `cd ~`: Changes to the home directory.
+     - `mkdir new_folder`: Creates a new directory.
+
+### 5. **Table of Shell Types**
+   | Shell Name       | Description                                                                 |
+   |------------------|-----------------------------------------------------------------------------|
+   | **Bash**         | Default shell for most Linux distributions. Great for scripting and general use. |
+   | **Korn Shell**   | Enhanced scripting capabilities, backward-compatible with Bash.             |
+   | **Z Shell**      | Advanced features like autocompletion, theming, and plugin support.         |
+   | **Fish**         | User-friendly with syntax highlighting, autosuggestions, and easy scripting.|
+
+---
+
+## Reflection
+Today’s class was both challenging and enlightening. Exploring the **Ubuntu GUI** helped me appreciate the user-friendly aspects of Linux, while diving into **CLI** and **shell commands** revealed the power and flexibility of text-based interfaces. Learning about the **kernel** and different **shell types** provided a deeper understanding of how Linux systems operate. The table of shell types was particularly helpful for comparing their features and use cases. Although the material is complex, I’m excited to continue building my skills and knowledge in this area.
+
+---
+
+## Next Steps
+- Practice using **Ubuntu GUI** to perform more advanced tasks.
+- Experiment with **CLI commands** to become more comfortable with the command line.
+- Explore the features of different **shell types** (e.g., Bash, Z Shell, Fish) to find the one that best suits my needs.
+- Review **syntax commands** and **subcommands** to improve my command-line proficiency.
+- Stay consistent with my studies to tackle the challenges of this program effectively.
