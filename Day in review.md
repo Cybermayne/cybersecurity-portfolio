@@ -568,3 +568,47 @@ Today’s session was packed with valuable information about **user management**
 - Research **cryptographic algorithms** further to understand their applications in cybersecurity.
 - Experiment with **CentOS** to become more familiar with its differences compared to Ubuntu.
 - Stay consistent with my studies to master these essential system administration skills.
+
+# Day in Review - 2025-03-18
+
+## Overview
+Today’s session focused on **Linux user permissions**, a critical aspect of system security and file management. We explored file and directory **ownership**, **permissions**, and how to modify them using the `chmod` command. We also learned about **octal values** for representing permissions and briefly touched on **special permissions** like `SUID`, `GUID`, and the **sticky bit**. It was a highly technical and practical day that deepened my understanding of Linux file systems.
+
+---
+
+## Key Topics Covered
+
+### 1. **File and Directory Ownership**
+   - Every file and directory in Linux has **three types of owners**:
+     1. **User (u)**: The owner of the file/directory (typically the user who created it).
+     2. **Group (g)**: A group of users who share access to the file/directory.
+     3. **Other (o)**: All other users who are not the owner or part of the group.
+   - Ownership determines **who has control** over a file or directory.
+
+### 2. **File and Directory Permissions**
+   - Permissions define **what actions** can be performed on a file or directory.
+   - There are **three types of permissions**:
+     1. **Read (r)**:
+        - For **files**: Allows viewing the file’s content.
+        - For **directories**: Allows listing the directory’s contents.
+     2. **Write (w)**:
+        - For **files**: Allows modifying the file’s content.
+        - For **directories**: Allows creating, deleting, or renaming files within the directory.
+     3. **Execute (x)**:
+        - For **files**: Allows running the file as a program or script.
+        - For **directories**: Allows accessing files within the directory (e.g., using `cd`).
+
+### 3. **Octal Values for Permissions**
+   - Permissions can be represented using **octal values** (0–7), where each digit corresponds to a combination of `r`, `w`, and `x`:
+     | Octal Value | Permission | Binary Representation |
+     |-------------|------------|-----------------------|
+     | **0**       | `---`      | 000                   |
+     | **1**       | `--x`      | 001                   |
+     | **2**       | `-w-`      | 010                   |
+     | **3**       | `-wx`      | 011                   |
+     | **4**       | `r--`      | 100                   |
+     | **5**       | `r-x`      | 101                   |
+     | **6**       | `rw-`      | 110                   |
+     | **7**       | `rwx`      | 111                   |
+   - Examples:
+     - `755`: `
