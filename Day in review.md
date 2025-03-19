@@ -486,7 +486,7 @@ Today’s class was incredibly hands-on and practical. Learning about **file sys
 - Review directory manipulation commands (`mv`, `rm`, `mkdir`) to become more comfortable managing files and folders.
 - Stay consistent with my studies to master these foundational Linux skills.
 
-# Day in Review - 2025-03-18
+# Day in Review - 2025-03-17
 
 ## Overview
 Today’s session began with setting up **CentOS**, a Linux distribution that behaves differently from Ubuntu. We then focused on **user management**, starting with **Identity and Access Management (IAM)** and moving on to **Linux user and group accounts**. We also explored cryptographic algorithms and their role in cybersecurity. It was a highly informative day that deepened my understanding of system administration and security.
