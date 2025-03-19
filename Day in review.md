@@ -485,3 +485,86 @@ Today’s class was incredibly hands-on and practical. Learning about **file sys
 - Explore additional options for **essential commands** (`echo`, `cat`, `touch`) to understand their full potential.
 - Review directory manipulation commands (`mv`, `rm`, `mkdir`) to become more comfortable managing files and folders.
 - Stay consistent with my studies to master these foundational Linux skills.
+
+# Day in Review - 2025-03-18
+
+## Overview
+Today’s session began with setting up **CentOS**, a Linux distribution that behaves differently from Ubuntu. We then focused on **user management**, starting with **Identity and Access Management (IAM)** and moving on to **Linux user and group accounts**. We also explored cryptographic algorithms and their role in cybersecurity. It was a highly informative day that deepened my understanding of system administration and security.
+
+---
+
+## Key Topics Covered
+
+### 1. **Setting Up CentOS**
+   - We installed and configured **CentOS**, a Linux distribution known for its stability and use in enterprise environments.
+   - Compared to **Ubuntu**, CentOS felt more streamlined for server use, with differences in package management and default configurations.
+
+### 2. **Identity and Access Management (IAM)**
+   - **IAM** ensures that the right individuals access the right resources at the right times for the right reasons.
+   - The four pillars of IAM are:
+     1. **Identity**: Who you are (e.g., a username like `john_doe`).
+     2. **Authentication**: Proving your identity (e.g., entering a password or using a fingerprint).
+     3. **Authorization**: What you’re allowed to do (e.g., granting `john_doe` access to a specific folder).
+     4. **Accounting**: Tracking what you do (e.g., logging `john_doe`’s file access attempts).
+   - Example: A user logs in with a username and password (authentication), accesses only their home directory (authorization), and their actions are logged for review (accounting).
+
+### 3. **Linux User Management**
+   - **User Accounts**:
+     - **Standard Users**: Regular users with limited permissions (e.g., `john_doe`).
+     - **System (Service) Users**: Used by the system to run services (e.g., `apache` for the Apache web server).
+   - **Differences Between System and Standard Users**:
+     | **System Users**                     | **Standard Users**                  |
+     |-------------------------------------|-------------------------------------|
+     | Created for system services.         | Created for human users.            |
+     | No login shell (e.g., `/sbin/nologin`). | Has a login shell (e.g., `/bin/bash`). |
+     | Typically has restricted permissions. | Permissions based on user role.     |
+
+   - **Groups**:
+     - **Primary Group**: The default group for a user. Each user has exactly one primary group.
+     - **Secondary Groups**: Additional groups a user can belong to for extra permissions.
+   - **Differences Between Primary and Secondary Groups**:
+     | **Primary Group**                    | **Secondary Groups**                |
+     |-------------------------------------|-------------------------------------|
+     | Default group for a user.            | Additional groups for extra access. |
+     | Only one primary group per user.     | A user can belong to multiple secondary groups. |
+     | Files created by the user belong to this group. | Used for shared access to resources. |
+
+   - **User Account Files**:
+     - `/etc/passwd`: Stores user account information (e.g., username, UID, home directory).
+     - `/etc/shadow`: Stores encrypted passwords and password-related settings.
+     - `/etc/group`: Stores group information.
+
+### 4. **Cryptographic Algorithms**
+   - We discussed how cryptographic algorithms are used in cybersecurity to secure data.
+   - Examples include:
+     - **Hashing**: Converting data into a fixed-size string (e.g., SHA-256 for password storage).
+     - **Encryption**: Transforming data to make it unreadable without a key (e.g., AES for file encryption).
+   - These algorithms are essential for protecting sensitive information.
+
+### 5. **Account Management Commands**
+   | Command          | Description                                                                 | Example Usage                     |
+   |------------------|-----------------------------------------------------------------------------|-----------------------------------|
+   | **`useradd`**    | Creates a new user.                                                        | `useradd john_doe`                |
+   | **`usermod`**    | Modifies an existing user.                                                 | `usermod -aG sudo john_doe`       |
+   | **`userdel`**    | Deletes a user.                                                            | `userdel john_doe`                |
+   | **`groupadd`**   | Creates a new group.                                                       | `groupadd developers`             |
+   | **`groupmod`**   | Modifies an existing group.                                                | `groupmod -n devs developers`     |
+   | **`groupdel`**   | Deletes a group.                                                           | `groupdel developers`             |
+   | **`passwd`**     | Changes a user’s password.                                                 | `passwd john_doe`                 |
+   | **`id`**         | Displays user and group information.                                       | `id john_doe`                     |
+   | **`chown`**      | Changes file ownership.                                                    | `chown john_doe:developers file.txt` |
+   | **`chgrp`**      | Changes file group ownership.                                              | `chgrp developers file.txt`       |
+
+---
+
+## Reflection
+Today’s session was packed with valuable information about **user management** and **cryptography**. Setting up **CentOS** provided a fresh perspective on Linux distributions, and learning about **IAM** clarified how identity and access are managed in systems. The distinction between **system and standard users** and **primary and secondary groups** was particularly enlightening, as it highlighted the importance of proper user and group management. The table of **account management commands** will be a handy reference as I continue working with Linux systems. Overall, today reinforced the importance of security and organization in system administration.
+
+---
+
+## Next Steps
+- Practice using **account management commands** to create, modify, and delete users and groups.
+- Explore the `/etc/passwd`, `/etc/shadow`, and `/etc/group` files to understand their structure and content.
+- Research **cryptographic algorithms** further to understand their applications in cybersecurity.
+- Experiment with **CentOS** to become more familiar with its differences compared to Ubuntu.
+- Stay consistent with my studies to master these essential system administration skills.
