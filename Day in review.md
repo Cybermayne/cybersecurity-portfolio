@@ -611,4 +611,34 @@ Today’s session focused on **Linux user permissions**, a critical aspect of sy
      | **6**       | `rw-`      | 110                   |
      | **7**       | `rwx`      | 111                   |
    - Examples:
-     - `755`: `
+     - `755`: `rwxr-xr-x` (Owner has full access; group and others have read and execute access).
+     - `644`: `rw-r--r--` (Owner has read and write access; group and others have read access).
+
+### 4. **Changing Permissions with `chmod`**
+   - The `chmod` command is used to change file and directory permissions.
+   - Examples:
+     - `chmod 755 file.txt`: Sets permissions to `rwxr-xr-x`.
+     - `chmod u+w file.txt`: Adds write permission for the owner.
+     - `chmod g-r file.txt`: Removes read permission for the group.
+
+### 5. **Special Permissions**
+   - **SUID (Set User ID)**: Allows a file to be executed with the permissions of the file’s owner.
+     - Example: `chmod u+s file.txt`.
+   - **GUID (Set Group ID)**: Allows a file to be executed with the permissions of the file’s group.
+     - Example: `chmod g+s file.txt`.
+   - **Sticky Bit**: Restricts file deletion in a directory to the file’s owner, the directory’s owner, or the root user.
+     - Example: `chmod +t /shared_directory`.
+
+---
+
+## Reflection
+Today’s session was a deep dive into **Linux permissions**, a fundamental aspect of system administration and security. Understanding **ownership** and **permissions** clarified how access control works in Linux, while learning about **octal values** provided a quick and efficient way to manage permissions. Practicing with the `chmod` command was particularly helpful, as it allowed me to apply these concepts in real-time. The introduction to **special permissions** like `SUID`, `GUID`, and the **sticky bit** highlighted the granular level of control Linux offers. Overall, today reinforced the importance of proper permission management for maintaining system security and functionality.
+
+---
+
+## Next Steps
+- Practice using `chmod` to modify permissions for files and directories.
+- Experiment with **octal values** to set permissions efficiently.
+- Explore the use cases for **special permissions** (`SUID`, `GUID`, sticky bit) in real-world scenarios.
+- Review the `/etc/passwd` and `/etc/group` files to understand how users and groups are managed.
+- Stay consistent with my studies to master Linux permissions and system administration.
