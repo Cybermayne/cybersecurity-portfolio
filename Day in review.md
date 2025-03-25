@@ -722,3 +722,110 @@ The elevator pitch exercise revealed:
 3. Authenticity paired with preparation creates impact
 4. Personality assessments provide valuable growth frameworks
 5. Success stories often hide important struggles
+
+# Day in Review - 2025-03-20
+
+## Overview
+Today's session covered two critical Linux system administration topics: **package management** and **process management**. We explored how Linux handles software installation differently from Windows, examined major Linux distributions and their package managers, and delved into how Linux manages running processes at a fundamental level.
+
+## Package Management
+
+### 1. Linux vs. Windows Software Installation
+| **Linux** | **Windows** |
+|-----------|------------|
+| Uses centralized package repositories | Typically installs from standalone executables |
+| Maintains dependency resolution | Often bundles dependencies with installers |
+| Primarily command-line based | Primarily GUI-based installation |
+| System-wide updates through package manager | Per-application update mechanisms |
+
+### 2. Installation Methods Comparison
+- **Source Code**:
+  - Pros: Maximum customization, access to latest features
+  - Cons: Requires compilation, dependency management
+  - Use case: Developer needs specific build options
+  - Example: `./configure && make && make install`
+
+- **Precompiled Binaries**:
+  - Pros: Quick installation, tested configurations
+  - Cons: Limited customization
+  - Use case: Standard software deployment
+  - Example: Installing via `apt` or `dnf`
+
+### 3. Major Linux Distributions and Their Package Managers
+
+#### Debian Family
+- **Distributions**:
+  - Debian (stable, community-driven)
+  - Ubuntu (user-friendly, LTS versions)
+  - Linux Mint (beginner-friendly)
+  
+- **Package Managers**:
+  - `dpkg`: Low-level package manager (.deb files)
+    - Example: `dpkg -i package.deb`
+  - `apt`/`apt-get`: High-level package manager
+    - Example: `apt install package`
+  - `aptitude`: Alternative to apt with ncurses interface
+
+#### Red Hat Family
+- **Distributions**:
+  - RHEL (Red Hat Enterprise Linux)
+  - CentOS (formerly community RHEL clone)
+  - Fedora (cutting-edge features)
+  
+- **Package Managers**:
+  - `rpm`: Low-level package manager (.rpm files)
+    - Example: `rpm -ivh package.rpm`
+  - `yum`: Original high-level manager (deprecated)
+  - `dnf`: Modern replacement for yum
+    - Example: `dnf install package`
+
+### 4. Other Notable Package Managers
+- `pacman` (Arch Linux)
+- `zypper` (openSUSE)
+- `snap`/`flatpak` (cross-distribution)
+
+## Process Management
+
+### 1. Fundamental Concepts
+- **PID (Process ID)**: Unique numerical identifier for each process
+- **PPID (Parent Process ID)**: The PID of the process that created this process
+- **Process Hierarchy**: All processes descend from init/systemd (PID 1)
+
+### 2. Process States
+| State | Description | Common Triggers |
+|-------|-------------|-----------------|
+| **Running** | Currently executing on CPU | Normal operation |
+| **Sleeping** | Waiting for resource/event | I/O operations |
+| **Stopped** | Suspended by signal | Ctrl+Z, `kill -STOP` |
+| **Zombie** | Completed but not reaped | Parent hasn't read exit status |
+
+### 3. Threads and Processing
+- **Thread**: Lightweight process sharing memory space
+- **Multi-core**: True parallel execution across CPU cores
+- **Hyperthreading**: Single core appearing as multiple logical processors
+
+### 4. Key Process Commands
+| Command | Description | Example |
+|---------|-------------|---------|
+| `ps` | Display processes | `ps aux` |
+| `top` | Interactive process viewer | `top` |
+| `htop` | Enhanced process viewer | `htop` |
+| `kill` | Send signals to processes | `kill -9 PID` |
+| `nice` | Adjust process priority | `nice -n 10 command` |
+| `pgrep` | Find processes by name | `pgrep firefox` |
+
+## Reflection
+Today's deep dive into package management clarified why Linux distributions handle software differently than Windows. Understanding the Debian/Red Hat split and their respective tools will be crucial for system administration. The process management section was particularly fascinating as it revealed how Linux handles multitasking at a fundamental level. Seeing how CPU architecture ties into process execution helped connect several earlier concepts.
+
+## Action Items
+1. Practice package management:
+   - Install software using both `apt` and `dnf` syntax
+   - Compare source vs binary installation times
+
+2. Experiment with process monitoring:
+   - Use `htop` to observe process states
+   - Create and manage zombie processes intentionally
+
+3. Research:
+   - Differences between CentOS Stream and RHEL
+   - How containers affect traditional process hierarchy
