@@ -829,3 +829,56 @@ Today's deep dive into package management clarified why Linux distributions hand
 3. Research:
    - Differences between CentOS Stream and RHEL
    - How containers affect traditional process hierarchy
+
+# Day in Review - 2025-03-21
+
+## Overview
+Today's session provided a deep dive into **Linux Process Management**, covering essential concepts from process states to monitoring tools. We explored how the Linux kernel manages running programs, learned critical commands for process control, and examined real-world scenarios for troubleshooting process-related issues.
+
+## Key Topics Covered
+
+### 1. Process Fundamentals
+- **PID (Process ID)**: Unique number (1-65535) identifying each process
+- **PPID (Parent PID)**: The creator process's identifier
+- **Process Hierarchy**: All processes descend from `systemd` (PID 1)
+- **Orphan Processes**: When parent dies, adopted by `systemd`
+- **Zombie Processes**: Defunct processes waiting to be reaped
+
+### 2. Process States
+| State       | Symbol | Description                          | Common Triggers               |
+|-------------|--------|--------------------------------------|-------------------------------|
+| **Running** | R      | Currently executing on CPU           | Normal operation              |
+| **Sleeping**| S      | Waiting for resource/event           | I/O operations                |
+| **Stopped** | T      | Suspended by signal                  | Ctrl+Z, `kill -STOP`          |
+| **Zombie**  | Z      | Completed but not cleaned up         | Parent process issues         |
+| **Deadlock**| D      | Uninterruptible sleep (critical)     | Hardware failures             |
+
+*Memory Aid*: "**R**unning **S**ystems **T**rack **Z**ombies **D**aily"
+
+### 3. Essential Commands
+| Command       | Description                          | Example Use Cases                  |
+|---------------|--------------------------------------|------------------------------------|
+| `ps`          | Process snapshot                     | `ps aux | grep nginx`             |
+| `top`/`htop`  | Real-time monitoring                 | `top -o %MEM`                     |
+| `kill`        | Send signals to processes            | `kill -9 4412` (force kill)       |
+| `pstree`      | Visual hierarchy                     | `pstree -p` (show PIDs)           |
+| `nice`        | Adjust priority (-20 to 19)          | `nice -n 15 ./script.sh`          |
+| `lsof`        | List open files                      | `lsof -i :80` (port users)        |
+
+### 4. Threads vs Processes
+| Aspect        | Process               | Thread                |
+|---------------|-----------------------|-----------------------|
+| **Memory**    | Isolated              | Shared                |
+| **Creation**  | Heavy (`fork()`)      | Light (`pthread`)     |
+| **Context**   | Full switch           | Partial switch        |
+| **Example**   | Firefox browser       | Browser tab           |
+
+## Practical Exercises
+
+### 1. Monitoring Practice
+```bash
+# Display CPU-intensive processes
+htop -s PERCENT_CPU
+
+# Find all Apache processes
+ps -ef | grep apache
