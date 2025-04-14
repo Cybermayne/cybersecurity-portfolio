@@ -926,3 +926,47 @@ pthread_create(&thread_id, NULL, thread_function, NULL);
 pthread_mutex_lock(&mutex);
 // Critical section
 pthread_mutex_unlock(&mutex);
+
+# Day in Review - 2025-03-24 (Review Day)
+
+## Overview
+Today's session reviewed critical Linux process management concepts, including process creation methods, threading architectures, and multitasking mechanisms. We examined how these components interact to enable efficient system operation and application performance in Linux environments.
+
+## Key Topics Covered
+
+### 1. Process Creation Types
+
+#### User-Created Processes
+| Type               | Creation Method          | Characteristics                  | Example Command           |
+|--------------------|--------------------------|----------------------------------|---------------------------|
+| **Interactive**    | Shell commands           | Attached to terminal session     | `vim document.txt`        |
+| **Background**     | `&` operator            | Runs detached from terminal      | `python script.py &`      |
+| **Batch**          | `at`/`cron`             | Scheduled execution              | `at 23:59 < backup.sh`    |
+| **Subshell**       | Parentheses `( )`       | Temporary execution environment  | `(cd /tmp && ls)`         |
+
+#### File-Created Processes
+| Trigger File Type  | Initiation Mechanism     | Common Use Cases                | Example                   |
+|--------------------|--------------------------|----------------------------------|---------------------------|
+| **Executables**    | `exec()` system call     | Binary program execution         | `/usr/bin/firefox`        |
+| **Scripts**        | Shebang interpretation   | Interpreted language execution   | `./script.sh`             |
+| **Service Files**  | `systemd` unit files     | Daemon processes                 | `/etc/systemd/system/nginx.service` |
+| **Socket Files**   | Inetd/xinetd             | On-demand network services       | `/run/sshd.socket`        |
+
+### 2. Threading Architecture
+
+#### Thread Types
+| Model              | Implementation          | Characteristics                  | Best For                   |
+|--------------------|-------------------------|----------------------------------|----------------------------|
+| **User-Level**     | pthread library         | Fast but non-preemptive          | CPU-bound tasks            |
+| **Kernel-Level**   | `clone()` syscall       | OS-managed, preemptive           | I/O-bound tasks            |
+| **Hybrid**         | NPTL (Native POSIX)     | Combines both advantages         | Modern applications        |
+
+#### Thread Management
+```c
+// Thread creation example
+pthread_create(&thread_id, NULL, thread_function, NULL);
+
+// Mutex synchronization
+pthread_mutex_lock(&mutex);
+// Critical section
+pthread_mutex_unlock(&mutex);
