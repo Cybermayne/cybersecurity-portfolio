@@ -918,7 +918,7 @@ Today's session reviewed critical Linux process management concepts, including p
 | **Hybrid**         | NPTL (Native POSIX)     | Combines both advantages         | Modern applications        |
 
 #### Thread Management
-```c
+c
 // Thread creation example
 pthread_create(&thread_id, NULL, thread_function, NULL);
 
@@ -961,13 +961,75 @@ Today's session reviewed critical Linux process management concepts, including p
 | **Kernel-Level**   | `clone()` syscall       | OS-managed, preemptive           | I/O-bound tasks            |
 | **Hybrid**         | NPTL (Native POSIX)     | Combines both advantages         | Modern applications        |
 
-#### Thread Management
-```c
-// Thread creation example
-pthread_create(&thread_id, NULL, thread_function, NULL);
+# Day in Review: 2025-03-25 - Introduction to Linux Networks
 
-// Mutex synchronization
-pthread_mutex_lock(&mutex);
-// Critical section
-pthread_mutex_unlock(&mutex);
+## Overview
+
+Today marked the beginning of my journey into **Linux Networks**. The focus of the day was understanding the basics of networking concepts, particularly around IP addressing, network interfaces, DHCP, and Linux network management commands. Here's a breakdown of what I learned and the key concepts covered.
+
+## Key Concepts
+
+### IP Addresses
+We discussed **Class A, B, and C** IP addresses, which are types of **public IP addresses** used for identifying devices on a network. We also covered **private IP addresses** and their corresponding ranges:
+
+- **Class A**: `1.0.0.0 to 127.255.255.255`
+- **Class B**: `128.0.0.0 to 191.255.255.255`
+- **Class C**: `192.0.0.0 to 223.255.255.255`
+
+Private IP addresses are used for internal network communication and cannot be routed over the internet. The ranges for private IP addresses are:
+
+- **Class A Private Range**: `10.0.0.0 to 10.255.255.255`
+- **Class B Private Range**: `172.16.0.0 to 172.31.255.255`
+- **Class C Private Range**: `192.168.0.0 to 192.168.255.255`
+
+We also discussed **IEEE (Institute of Electrical and Electronics Engineers)** and **ICANN (Internet Corporation for Assigned Names and Numbers)**, which are organizations responsible for defining networking standards and overseeing IP address allocations.
+
+### IPv6 Addresses
+We went into detail about **IPv6** addresses, which are designed to replace the older IPv4 addressing scheme to support a much larger address space. IPv6 addresses are written as eight groups of four hexadecimal digits, separated by colons (e.g., `2001:0db8:85a3:0000:0000:8a2e:0370:7334`).
+
+### Network Ports
+We also covered **network ports**, which are essential for identifying specific services on a server. Ports are numbered and associated with protocols (e.g., HTTP uses port 80, HTTPS uses port 443). Ports are crucial for ensuring data is sent to the correct application on a device.
+
+### Network Interfaces and Configuration
+Network interfaces can be configured either **manually** or **dynamically** through **DHCP (Dynamic Host Configuration Protocol)**. DHCP allows a device to automatically receive an IP address from a **DHCP server**. We learned about the **DORA** process involved in DHCP:
+
+- **D** - Discover
+- **O** - Offer
+- **R** - Request
+- **A** - Acknowledge
+
+### Network Management Commands
+I learned several important **network management commands** for Linux:
+
+- **ip**: Used to show and manipulate routing, devices, and tunnels.
+- **nslookup**: Used for querying DNS records.
+- **traceroute**: Traces the route packets take to a destination.
+- **nmcli**: A command-line interface for NetworkManager.
+- **nmtui**: A text user interface for configuring network settings.
+- **nmgui**: A graphical user interface for NetworkManager.
+- **ifconfig**: Used for network interface configuration (now replaced by `ip` in modern Linux).
+- **iwconfig**: Used for configuring wireless network interfaces.
+
+### Network Settings Persistence
+I learned that **ip** and **ifconfig** settings **do not persist** after a system reboot. This was a key insight into how network settings are managed and configured in Linux. We also compared **legacy** (using `ifconfig` and `/etc/network/interfaces`) vs. **modern** (using `NetworkManager`, `nmcli`, and `nmtui`) network management in Linux. The modern approach provides more flexibility, easier interface management, and integration with tools like DHCP and dynamic IP allocation.
+
+### DHCP Servers and Clients
+We explored **DHCP servers** and **DHCP clients** in more detail. The DHCP server assigns IP addresses to clients on the network. The process of **DORA** (Discover, Offer, Request, Acknowledge) allows a client to request and receive an IP address.
+
+### Domain Name Space and Fully Qualified Domain Name (FQDN)
+We also discussed the **Domain Name System (DNS)** and the **Domain Name Space (DNS)**. DNS is the system that translates human-readable domain names (like `example.com`) into IP addresses, which computers use to communicate. A **Fully Qualified Domain Name (FQDN)** is a complete domain name that includes both the host and the domain (e.g., `server.example.com`).
+
+## Summary
+
+Today’s learning covered essential networking concepts that are foundational for setting up and managing Linux-based networks. We dove into IP addressing, IPv6, DHCP, and how network interfaces can be managed dynamically or manually. Additionally, we explored various Linux networking commands and the evolution of network management from legacy tools to modern solutions.
+
+### Takeaways:
+- A solid understanding of IP address classes and private/public ranges.
+- How to configure network interfaces using modern tools.
+- The importance of DHCP in managing IP address assignment.
+- An understanding of **FQDN** and the **DNS** system.
+
+I’m excited to continue my journey in networking and dive deeper into Linux networking concepts in the upcoming days!
+
+
 
