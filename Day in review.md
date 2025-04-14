@@ -1005,3 +1005,39 @@ Today's deep dive into Linux process management covered everything from fundamen
 ps -eLf              # List all processes + threads
 htop -t              # Thread-aware viewer
 pidstat -w -p 1234 1 # Context switch monitoring
+
+# Day in Review - 2025-03-24
+
+## Overview
+Today's deep dive into Linux process management covered everything from fundamental concepts to advanced troubleshooting. We explored process creation methods, threading models, scheduling algorithms, and practical system administration techniques.
+
+## Key Topics Covered
+
+### 1. Process Creation & Types
+#### User-Created Processes
+| Type        | Creation Method     | Example                | Characteristics          |
+|-------------|---------------------|------------------------|--------------------------|
+| Interactive | Shell command       | `vim file.txt`         | Attached to terminal     |
+| Background  | `&` operator        | `python script.py &`   | Detached from terminal   |
+| Batch       | `cron`/`at`         | `at 23:59 < job.sh`    | Scheduled execution      |
+| Subshell    | `(commands)`        | `(cd /tmp && ls)`      | Temporary environment    |
+
+#### System-Created Processes
+| Trigger      | Config Location      | Example              | Purpose                |
+|-------------|----------------------|----------------------|------------------------|
+| Service     | `/etc/systemd/system`| `nginx.service`      | Daemon management      |
+| Socket      | `/run/`              | `docker.socket`      | On-demand activation   |
+
+### 2. Threading Models
+| Type          | Implementation     | Pros/Cons                         | Best For           |
+|---------------|--------------------|-----------------------------------|--------------------|
+| User-Level    | `pthread`          | Fast but non-preemptive           | CPU-bound tasks    |
+| Kernel-Level  | `clone()` syscall  | OS-managed, preemptive            | I/O-bound tasks    |
+| Hybrid (NPTL) | Linux default      | Balanced performance              | General purpose    |
+
+### 3. Essential Commands
+#### Monitoring
+```bash
+ps -eLf              # List all processes + threads
+htop -t              # Thread-aware viewer
+pidstat -w -p 1234 1 # Context switch monitoring
